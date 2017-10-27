@@ -4,7 +4,7 @@
 
 ### default.custom.yaml
 
-默认的切换与一些应用的设置冲突，故改之。
+默认的切换快捷键与一些应用的快捷键设置有冲突，故改之。
 
 ### wubi86.custom.yaml
 
@@ -23,6 +23,8 @@
 `z` 键 临时切换成拼音。
 
 `/` 匹配符号，详见 symbols.yaml 文件。
+
+`shift + space` 切换半角/全角。
 
 ![IMG-1](imgs/img-1.png)
 ![IMG-2](imgs/img-2.png)
