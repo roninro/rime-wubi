@@ -23,3 +23,6 @@
 `z` 键 临时切换成拼音。
 
 `/` 匹配符号，详见 symbols.yaml 文件。
+
+![IMG-1](imgs/img-1.png)
+![IMG-2](imgs/img-2.png)
