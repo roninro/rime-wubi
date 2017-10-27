@@ -34,11 +34,11 @@ patch:
 
 
 # 使用自定义词典 custom_phrase.txt
-  custom_phrase:
-    dictionary: ""
-    user_dict: custom_phrase
-    db_class: stabledb
-    enable_completion: false
-    enable_sentence: false
-    initial_quality: 1
-  "engine/translators/@4": table_translator@custom_phrase
+  # custom_phrase:
+  #   dictionary: ""
+  #   user_dict: custom_phrase
+  #   db_class: stabledb
+  #   enable_completion: true
+  #   enable_sentence: true
+  #   initial_quality: 1
+  # "engine/translators/@4": table_translator@custom_phrase
