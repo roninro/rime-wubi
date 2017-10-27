@@ -1,0 +1,44 @@
+patch:
+  speller:
+    max_code_length: 4                  #最长4码
+    auto_select: true                   #顶字上屏
+    auto_select_unique_candidate: true  #无重码自动上屏
+  
+    #  符号快速输入和部分符号的快速上屏
+  punctuator:
+    import_preset: symbols
+    half_shape:
+      "#": "#"
+      "!": "！"
+      "*": "*"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": ["/","÷"]
+      '\': "、"
+      "_" : "——"
+      "'": {pair: ["「", "」"]}
+      "[": ["【", "["]
+      "]": ["】", "]"]
+      '{': '{'
+      '}': '}'
+      "$": ["¥", "$", "€", "£", "¢", "¤"]
+      "<": ["<", "《", "〈", "«"]
+      ">": [">", "》", "〉", "»"]
+      '%': '%'
+      '|' : ['|', ·, ・, ｜, '§', '¦', '‖' ]
+
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9]0?)$"
+  "translator/dictionary": wubi86.extended #加载五笔词库
+
+
+# 使用自定义词典 custom_phrase.txt
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "engine/translators/@4": table_translator@custom_phrase
