@@ -26,5 +26,8 @@
 
 `shift + space` 切换半角/全角。
 
-![IMG-1](imgs/img-1.png)
-![IMG-2](imgs/img-2.png)
+### UPDATE
+
+输入法使用[rime/squirrel](https://github.com/rime/squirrel)重新编译。
+调整输入法theme，如[http://rime.im/](http://rime.im/)
+
