@@ -1,25 +1,23 @@
 patch:
-
-  show_notifications_when: appropriate  # 状态通知，适当，也可设为全开（always）全关（never）
+  show_notifications_when: appropriate # 状态通知，适当，也可设为全开（always）全关（never）
 
   style:
-    color_scheme: rime-dark
-    horizontal: false
+    color_scheme: rime_dark
+    horizontal: true
     inline_preedit: true
-    corner_radius: 7
+    corner_radius: 6
     border_height: 0
     border_width: 10
     line_spacing: 1
-    spacing: 0  # space between preedit and candidates in non-inline mode
-    candidate_format: '%c. %@ '
-  # font_face: 'Lucida Grande'  # supporting soft cursor '›'
-  #font_point: 21
-  #label_font_face: 'STHeitiTC-Medium'
-    label_font_point: 18
+    spacing: 0 # space between preedit and candidates in non-inline mode
+    candidate_format: "%c %@ "
+    font_point: 16
+    label_font_point: 14
+
   preset_color_schemes:
-    rime-dark:
+    rime_dark:
       name: Dark
-      author: mjyi <mjyi@qq.com>
+      author: roninro <xx@xx.com>
       text_color: 0xFFFFFF #拼音串
       candidate_text_color: 0xFFFFFF #非第一候选项
       back_color: 0x444444 #背景
@@ -31,29 +29,29 @@ patch:
       comment_text_color: 0xE2E2E2 #注解文字
       hilited_comment_text_color: 0xFFFFFF #注解文字高亮
 
+  app_options:
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.blacktree.Quicksilver:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    "com.runningwithcrayons.Alfred-3":
+      ascii_mode: true
+    com.apple.Xcode:
+      ascii_mode: true
+    com.google.Chrome:
+      ascii_mode: true
+    com.sublimetext.3:
+      ascii_mode: true
+    com.sublimetext.4:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    org.vim.MacVim:
+      ascii_mode: true
+    org.mozilla.firefox:
+      ascii_mode: true
 
-  # preset_color_schemes:
-  #   light:
-  #     name: 浅浅浅                                        # 作者名
-  #     author: "浅浅浅 <mjyi93@qq.com>"                    # 作者
-  #     inline_preedit: true                               # 启用内嵌编码模式，候选条首行不显示拼音
-  #     candidate_format: "%c.\u2005%@\u2005"              # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-  #     corner_radius: 5                                   # 候选条圆角半径
-  #     border_height: 0                                   # 窗口边界高度，大于圆角半径才生效
-  #     border_width: 10                                   # 窗口边界宽度，大于圆角半径才生效
-  #     back_color: 0xFFFFFF                               # 候选条背景色
-  #     border_color: 0xE0B693                             # 边框色
-  #     font_face: "PingFangSC-Regular"                    # 候选词字体
-  #     font_point: 18                                     # 预选栏文字字号
-  #     label_font_face: "PingFangSC-Light"                # 候选词编号字体
-  #     label_font_point: 14                               # 预选栏编号字号
-  #     label_color: 0x999999                              # 预选栏编号颜色
-  #     candidate_text_color: 0x000000                     # 预选项文字颜色
-  #     text_color: 0x000000                               # 拼音行文字颜色，24位色值，16进制，BGR顺序
-  #     comment_text_color: 0x999999                       # 拼音等提示文字颜色
-  #     hilited_text_color: 0x7071F5                       # 高亮拼音 (需要开启内嵌编码)
-  #     hilited_candidate_text_color: 0x7071F5             # 第一候选项文字颜色
-  #     hilited_candidate_back_color: 0xFFFFFF             # 第一候选项背景背景色
-  #     hilited_candidate_label_color: 0x7071F5            # 第一候选项编号颜色
-  #     hilited_comment_text_color: 0x7071F5               # 注解文字高亮
-
+  hilited_candidate_back_color: 0xeeeeee

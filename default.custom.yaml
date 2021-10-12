@@ -1,29 +1,19 @@
 patch:
-  menu:
-    page_size: 7
+  menu/page_size: 7
   schema_list:
     - schema: wubi86
-
-  ascii_composer/good_old_caps_lock: false # capslock 键切换英文并输出小写
+    # - schema: wubi_pinyin
+    # - schema: pinyin_simp
   ascii_composer/switch_key:
-    Caps_Lock: noop
+    Caps_Lock: clear
     Control_L: noop
     Control_R: noop
+    Eisu_toggle: clear
     Shift_L: commit_code
-    Shift_R: noop
-
-
+    Shift_R: commit_code
   switcher:
-    abbreviate_options: true
-    caption: "〔方案選單〕"
-    fold_options: false # 选项菜单是否折叠显示
+    fold_options: false
     hotkeys:
       # - "Control+grave"
       # - "Control+Shift+grave"
-      - "Control+s"
-    option_list_separator: "／"
-    save_options:
-      - full_shape
-      - ascii_punct
-      - simplification
-      - extended_charset
+      - F4

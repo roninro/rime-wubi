@@ -1,0 +1,202 @@
+# Rime dictionary: wubi86
+# encoding: utf-8
+#
+
+---
+name: wubi86.extra
+note: "扩展词库"
+dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
+sort: original
+version: "2021.10.12"
+use_preset_vocabulary: true
+...
+## 电视剧
+铁齿铜牙纪晓岚	qhqm
+纪晓岚	xjmm
+和珅	tkgj
+男人帮	lwdt
+
+## 影视
+黑镜	lfqu
+你好，李焕英	soam
+危情三日	qndj
+时间旅行者的妻子	juyb
+星际穿越	jbpf
+无敌破坏王	ftdg
+盗梦空间	uspu
+黑客帝国	lpul
+利刃出鞘	tvba
+电锯惊魂	jqnf
+阿凡达	bmdp
+切尔诺贝利	aqyt
+
+## 歌名
+寄居蟹	pnqe
+斑马	gycn
+醉清风	simq
+借我	watr
+无骨无花，无我无他	fmfw
+大天篷	dgtt
+孤芒	bray
+
+## 品牌
+美特斯邦威	utad
+凯迪拉克	mmrd
+迪卡侬	mhwp
+超意兴	fuiw
+迈森兰	dsuf
+捷酷	rgsg
+
+## 数码
+紫米	hxoy
+数字尾巴	opnc
+Vivo	vivo
+Oppo	oppo
+金立	qquu
+
+## 喜剧人
+郭德纲	ytmq
+于谦	gfyu
+小沈阳	iibj
+岳云鹏	rfee
+沈腾	ipeu
+艾伦	aqww
+张小斐	xidj
+贾玲	smgw
+
+## 歌手
+谢春花	ydaw
+王筝	ggtq
+阿悄	bsni
+薛之谦	apyu
+张碧晨	xgjd
+那英	vfam
+王菲	ggad
+庆庆	ydyd
+周杰伦	msww
+陈粒	baou
+解忧邵帅	qnvj
+龙梅子	dsbb
+张峰奇	xmds
+莫艳琳	adgs
+陈雪凝	bfux
+李荣浩	sait
+陈慧娴	bdus
+郑源	udid
+
+## 演员
+周韵	mfuj
+姜文	ugyy
+姜武	ugga
+舒淇	wfia
+赵薇	fhat
+葛尤	ajdn
+甄子丹	sbmy
+李连杰	slso
+姚晨	vijd
+王洛丹	gimy
+孙红雷	bxfl
+
+## 化妆品品牌
+奥洛菲	tiad
+欧莱雅	aaah
+韩芬娜	favv
+春纪	dwxn
+碧思泉	glri
+魅力可诗	rlsy
+美肌颜	ueut
+
+## 地名
+万达	dndp
+泉城广场	rfyf
+莒县	akeg
+果庄	jsyf
+下屯	ghgb
+孙家庄	ipyf
+沂水	irii
+马家	cnpe
+马家小区	cpia
+台儿庄	cqyf
+
+## 游戏名
+刺客信条	gpwt
+极品飞车	sknl
+塞尔达	pqdp
+
+## 王者荣耀
+黄忠	amkh
+太乙真人	dnfw
+蔡文姬	ayva
+虞姬	hava
+李元芳	sfay
+刘备	yjtl
+橘右京	sdyi
+韩信	fjwy
+安琪拉	pgru
+项羽	adnn
+甄姬	sfva
+扁鹊	ynaj
+鲁班七号	qgak
+赢政	yngh
+妲己	vjnn
+小乔	ihtd
+元歌	fqsk
+娜可露露	vsff
+典韦	mafn
+钟无艳	qfdh
+赵云	fhfc
+关羽	udnn
+杨戬	sngo
+露娜	fkvv
+兰陵王	ubgg
+程咬金	tkqq
+白起	rrfh
+牛魔	rhys
+亚瑟	gogg
+夏侯惇	dwny
+韩信	fjwy
+老夫子	ffbb
+宫本武藏	psga
+阿轲	bsls
+不知火舞	gtor
+武则天	gmgd
+王昭君	gjvt
+高渐离	yiyb
+东皇太一	ardg
+狄仁杰	qwso
+鲁班七号	qgak
+百里守约	djpx
+百里玄策	djyt
+上官婉儿	hpvq
+公孙离	wbyb
+马超	cnfh
+芈月	ghee
+干将莫邪	fuaa
+沈梦溪	isie
+盾山	rfmm
+蒙犽	apqt
+鲁班大师	qgdj
+云中君	fkvt
+盘古	tedg
+李信	sbwy
+伽罗	wllq
+司马懿	ncfp
+孙策	bitg
+米莱狄	oaqt
+狂铁	qtqr
+弈星	yojt
+裴擒虎	drha
+杨玉环	sggg
+明世隐	jabq
+梦奇	ssds
+苏烈	algq
+百里玄策	djyt
+大乔	ddtd
+
+## 事件
+新型冠状病毒	ugpg
+小汤山	iimm
+火神山	opmm
+雷神山	fpmm
+汶川	iykt
+N号房	nkyn

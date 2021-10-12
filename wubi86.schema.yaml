@@ -2,15 +2,15 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wubi_trad
-  name: 五筆·簡入繁出
-  version: "0.7"
+  schema_id: wubi86
+  name: "五笔86"
+  version: "0.21"
   author:
     - 發明人 王永民先生
-    - 輸入方案製作 佛振 <chen.sst@gmail.com>
   description: |
-    五筆字型86版 簡入繁出
-    需要安裝 opencc 簡繁轉換詞典
+    五筆字型86版
+    碼表源自 ibus-table
+    敲 z 鍵進入拼音反查
   dependencies:
     - pinyin_simp
 
@@ -22,9 +22,6 @@ switches:
     states: [ 半角, 全角 ]
   - name: extended_charset
     states: [ 常用, 增廣 ]
-  - name: zh_trad
-    reset: 1
-    states: [ 简体, 繁體 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -48,9 +45,6 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - table_translator
-  filters:
-    - simplifier
-    - uniquifier
 
 speller:
   delimiter: " ;'"
@@ -58,18 +52,17 @@ speller:
 
 translator:
   dictionary: wubi86
-  prism: wubi_trad
   enable_charset_filter: true
+  enable_sentence: true
+  enable_encoder: true
+  encode_commit_history: true
+  max_phrase_length: 4
   disable_user_dict_for_patterns:
     - "^z.*$"
 
-abc_segmentor:
-  extra_tags:
-    - reverse_lookup
-
 reverse_lookup:
   dictionary: pinyin_simp
-  prefix: "`"
+  prefix: "z"
   suffix: "'"
   tips: 〔拼音〕
   preedit_format:
@@ -77,12 +70,8 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
-simplifier:
-  opencc_config: s2t.json
-  option_name: zh_trad
-
 punctuator:
-  import_preset: default
+  import_preset: symbols
 
 key_binder:
   import_preset: default
@@ -90,4 +79,5 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "`[a-z]*'?$"
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    reverse_lookup: "^z[a-z]*'?$"

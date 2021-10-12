@@ -12,7 +12,7 @@ columns:
   - stem
 encoder:
   exclude_patterns:
-    - '^z.*$'
+    - "^z.*$"
   rules:
     - length_equal: 2
       formula: "AaAbBaBb"
@@ -23,12 +23,13 @@ encoder:
 
 import_tables:
   - wubi86
-  - wubi86.emoji
+  - wubi86.extra
+  # - wubi86.emoji
 ...
 
 😂️	zzbq	900
 😅️	zzbq	900
-☺️	zzbq	900
+☺️ zzbq	 900
 😱️	zzbq	900
 😭️	zzbq	900
 😇️	zzbq	900
